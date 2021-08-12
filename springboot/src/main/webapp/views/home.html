@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+<!-- Required meta tags -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Property Dealer</title>
+
+<link rel="stylesheet" href="css/style.css" />
+
+
+</head>
+
+<body>
+
+
+	<!--   <div class="header">
+        <img src="logo.png" alt="img" id="logo" />
+    </div>
+    <nav id="menu-bar">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="add.html"></a>
+                <button type="button">Add</button>
+            </li>
+            <li><a href="delete.html"></a>
+                <button type="button">Delete</button>
+            </li>
+        </ul>
+    </nav>  -->
+
+	<form action="processForm">
+		<h1>Add property name , its description and size</h1>
+		<hr>
+		<div class="input-group">
+
+			<label for="property-name">property name</label><br> <br> <input
+				type="text" class="form-control" id="candidate1" name="name" /> <br>
+			<br> <label for="property-name">property description</label><br>
+			<br>
+			<textarea class="form-control" id="candidate2"
+				name="desc" cols="20" rows="2"></textarea>
+			<br> <br> <label for="property-name">property size</label><br>
+			<br> <input type="text" class="form-control" id="candidate3"
+				name="size" /> <br> <br>
+
+			<div class="input-group-append">
+				<button class="btn btn-add" type="button" onclick="addProp()">Add</button>
+				<button class="btn btn-del" type="button" onclick="removeProp()">Delete</button>
+				<div class="submit">
+					<button type="submit">Save</button>
+				</div>
+			</div>
+			<ul id="name-list">
+
+			</ul>
+		</div>
+
+	</form>
+
+	<script type="text/javascript" src="js/script.js">
+		
+	</script>
+
+
+
+</body>
+
+</html>
